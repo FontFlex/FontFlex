@@ -27,14 +27,14 @@ FontFlex is a versatile framework for effortless management and customization of
 Do not change any of the link, or script folder paths. This can cause the FontFlex to not be functional, unless you change the folder paths.
 
   ```html
-  <script src="/scripts/createFormatting.js"></script>
+  <script src="/scripts/createMarkdownFormatting.js"></script>
   <link rel="stylesheet" href="/FontFlexComponents/styles/formatting.css">
   ```
 
 If you do change any folder paths ensure that you change the folder path in this file: 'buttons.html'. Change these lines:
 
   ```html
-  <script src="/scripts/createFormatting.js"></script>
+  <script src="/scripts/createMarkdownFormatting.js"></script>
 
   <link rel="stylesheet" href="/styles/formatting.css">
   ```
