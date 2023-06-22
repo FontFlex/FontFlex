@@ -1,19 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/markdownStyling.css">
+  <title>FontFlex Markdown Editor</title>
+</head>
+<body>
 
-<script src="/scripts/createFormatting.js"></script>
-<link rel="stylesheet" href="/styles/formatting.css">
-
-
-
-<img src="/assets/svg/line.svg" width="32" height="32">
-
-<img onclick="addH1()" src="/assets/svg/buttonAssets/h1.svg" width="32" height="32">
-<img onclick="addH2()" src="/assets/svg/buttonAssets/h2.svg" width="32" height="32">
-<img onclick="addH3()" src="/assets/svg/buttonAssets/h3.svg" width="32" height="32">
-
-<img onclick="addBold()" src="/assets/svg/buttonAssets/bold.svg" width="32px" height="32px">
-<img onclick="addH2()" src="/assets/svg/buttonAssets/italic.svg" width="32px" height="32px">
-<img onclick="addH3()" src="/assets/svg/buttonAssets/italic.svg" width="32px" height="32px">
-
-<br>
-
-<textarea id="test-textarea"></textarea> <!-- THIS IS JUST TO SHOW THE RESULTS, YOU MAY REMOVE THIS IF YOU WANT. This can also be external (like in a diffrent .html file.) -->
+  <button id="test" onclick="addH1()">H1</button>
+  <textarea id="markdown-editor" placeholder="Add or paste Markdown code here."></textarea>
+  <div id="preview"></div>
+  
+</body>
+<script src="/scripts/createMarkdownFormatting.js"></script>
+</html>
