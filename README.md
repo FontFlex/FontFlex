@@ -53,9 +53,7 @@ If you ever do change the folder directory of FontFlex make sure that you change
 ## FontFlex not working?
 Before you make a Issue make sure that you check these things first:
 1. Folder reference paths
-2. That you are on the latest verison of FontFlex (check here: https://github.com/FontFlex/FontFlex/releases)
-      * If you are **not** on the latest verison of FontFlex please update it by pressing the
-      "Source code (zip)" button, this will download the latest version of FontFlex.
+2. Ensure that you are on the latest verion ann / or that you have checked ot the latest commit of that version
 
 Ensure that you change this line to the text area that you want FontFlex to be working on.
 
