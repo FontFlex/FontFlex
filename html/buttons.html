@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/markdownStyling.css">
+  <link rel="stylesheet" href="/html/styles/markdownStyling.css">
   <title>FontFlex Markdown Editor</title>
 </head>
 <body>
 
-  <button id="test" onclick="addH1()">H1</button>
+  <img src="/assets/svg/buttonAssets/h1.svg" onclick="addH1()" width="">
+  <img src="/assets/svg/buttonAssets/h2.svg" onclick="addH2()">
+  <img src="/assets/svg/buttonAssets/h3.svg" onclick="addH3()">
+
+  <br>
   <textarea id="markdown-editor" placeholder="Add or paste Markdown code here."></textarea>
   <div id="preview"></div>
   
 </body>
 <script src="/scripts/createMarkdownFormatting.js"></script>
+<script src="/scripts/addMarkdownFormattingWithButtons.js"></script>
 </html>
