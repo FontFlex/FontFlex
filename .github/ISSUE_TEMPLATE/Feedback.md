@@ -1,7 +1,7 @@
 ---
 name: Feedback
 about: Got anything that I could improve on or just tell me how much you love 1Habit
-title: '[USER FEEDBACK] - '
+title: '[USER-FEEDBACK] - '
 labels:
   - user-feedback
 ---

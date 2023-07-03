@@ -1,7 +1,7 @@
 ---
 name: 'Bug Report'
 about: 'Found a bug, report it here!'
-title: '[BUG REPORT] - '
+title: '[BUG-REPORT] - '
 labels:
   - bug
 ---
