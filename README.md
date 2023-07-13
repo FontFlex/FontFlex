@@ -1,6 +1,6 @@
-# FontFlex
+# FontFlex - **DEV**
 
-FontFlex is a user-friendly and accessible Markdown framework suitable for individuals of all skill levels, enabling anyone to create visually appealing and customizable documents with enhanced typography.
+FontFlex is a versatile framework for effortless management and customization of font sizes in buttons and text areas. It empowers developers to create visually consistent and aesthetically pleasing user interfaces.
 
 ## Usage
 
@@ -14,51 +14,37 @@ FontFlex is a user-friendly and accessible Markdown framework suitable for indiv
   
   Example:
 
-  ```bash
-  git submodule add https://github.com/jasjs1/FontFlex.git src/vendor/fontflex
-  ```
+```bash
+git submodule add https://github.com/jasjs1/FontFlex.git src/vendor/fontflex
+```
   
-  it will be put automatically in .../repo/src/vendor/fontflex
+  it will put automatically in .../repo/src/vendor/fontflex
 
 ## Important Notices
-### 1. Folder paths
 
+### 1. Folder Path
 
-** Make sure if you do change the folder path of FontFlex that you change lines below. But if you did not change anything about the folder directories then you can ignore this. **
+Do not change any of the link, or script folder paths. This can cause the FontFlex to not be functional, unless you change the folder paths.
 
-  ```html
-    <script src="/scripts/createMarkdownFormatting.js"></script>
-    <link rel="stylesheet" href="styles/markdownStyling.css">
-  ```
-  
-Do not change any of the link, or script folder paths. This can cause the FontFlex not to be functional unless you change the folder paths.
-
-  ```html
-  <script src="/scripts/createMarkdownFormatting.js"></script>
-  <link rel="stylesheet" href="/FontFlexComponents/styles/formatting.css">
-  ```
+```html
+<script src="/scripts/createFormatting.js"></script>
+<link rel="stylesheet" href="/FontFlexComponents/styles/formatting.css">
+```
 
 If you do change any folder paths ensure that you change the folder path in this file: 'buttons.html'. Change these lines:
 
-  ```HTML
-  <script src="/scripts/createMarkdownFormatting.js"></script>
+```html
+<script src="/scripts/createFormatting.js"></script>
 
-  <link rel="stylesheet" href="/styles/formatting.css">
-  ```
+<link rel="stylesheet" href="/styles/formatting.css">
+```
 
-### Changing the folder directory:
-If you ever do change the folder directory of FontFlex make sure that you change **every** folder reference to make sure that FontFlex is in working condition.
+### 2. Text area ID
 
+Ensure that you change this line to the textarea that you want FontFlex to be workingo on.
 
-## FontFlex not working?
-Before you make a Issue make sure that you check these things first:
-1. Folder reference paths
-2. Ensure that you are on the latest verion ann / or that you have checked ot the latest commit of that version
+```js
+const textarea = document.getElementById('test-textarea');
+```
 
-Ensure that you change this line to the text area that you want FontFlex to be working on.
-
-  ```js
-  const textarea = document.getElementById('test-textarea');
-  ```
-
-If you have checked those and it is still not working, make a Issue.
+Change 'test-textarea' to the ID of the textarea (or other elements) that you want to have FontFlex to be working on.
