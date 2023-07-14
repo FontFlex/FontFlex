@@ -1,18 +1,25 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  background-color: #1c1f23;
-  color: white; /* This is just so that the font is visable */
+  background-color: #FFFFFF;
+  color: black !important;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
-textarea {
+#markdown-editor {
   width: 100%;
   height: 300px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   background-color: #1E1E1E;
-  color: white; /* Just to make sure that the textarea color is showing */
+  color: white;
+  text-align: left;
+  padding: 8px; /* Add padding if desired */
+  border: none; /* Remove border if desired */
+  resize: none; /* Disable resizing if desired */
 }
+
 
 code {
   background-color: #262626;
@@ -29,20 +36,20 @@ code {
 
 h1 {
   font-size: 32px;
-  color: #C292C8;
+  color: #2954d7;
   margin-bottom: -23px;
 }
 
 h2 {
   font-size: 26px;
-  color: #C292C8;
+  color: #2954d7;
   margin-top: 13px;
   margin-bottom: -23px;
 }
 
 h3 {
   font-size: 18px;
-  color: #C292C8;
+  color: #2954d7;
   margin-bottom: -13px;
   margin-top: 13px;
 }
@@ -53,13 +60,19 @@ h3 {
 
 #preview {
   font-size: 17px;
+  text-align: left;
+  margin-left: 5px;
 }
 
 #preview a {
   /* For the user added links
   /* This will not change any links outside of the Markdown textarea. */
 
-  color: #C292C8;
+  color: #2954d7;
   font-weight: bold;
 }
 
+
+#icons {
+  gap: 10px;
+}
