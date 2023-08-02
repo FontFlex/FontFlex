@@ -1,4 +1,4 @@
-# FontFlex - **DEV**
+# FontFlex - Instillation Manual
 
 FontFlex is a versatile framework for effortless management and customization of font sizes in buttons and text areas. It empowers developers to create visually consistent and aesthetically pleasing user interfaces.
 
